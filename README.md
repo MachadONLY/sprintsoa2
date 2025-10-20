@@ -1,4 +1,4 @@
-# API REST - Trabalho de Faculdade
+# API REST
 
 rm551570 - Gabriel Teixeira Machado
 rm98316 - Camila do Prado Padalino
