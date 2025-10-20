@@ -1,47 +1,39 @@
-# API REST
+# 📡 API REST / Spring Boot 3.3 
+> Projeto criado para a sprint 4 da matéria de ARQUITETURA ORIENTADA A SERVIÇOS (SOA) E WEB SERVICES, da challenge 2025
 
-rm551570 - Gabriel Teixeira Machado
-rm98316 - Camila do Prado Padalino
-rm98237 -  Guilherme Brazioli
-rm97688 - Felipe Bressane
+---
+## 👨‍💻 Desenvolvido por:
+👤 **Camila do Prado Padalino** - `rm98316`  
+👤 **Felipe Bressane** - `rm97688`  
+👤 **Gabriel Teixeira Machado** - `rm551570`  
+👤 **Guilherme Brazioli** - `rm98237`
 
-## Descrição do Projeto
+---
 
-Este projeto implementa uma **API REST completa utilizando Spring Boot 3.3** com autenticação segura baseada em **JWT (JSON Web Token)**, documentação automática via **Swagger/OpenAPI**, testes automatizados e boas práticas de desenvolvimento orientado a objetos seguindo os **princípios SOLID**.
+## 📝 Descrição do Projeto
 
-A aplicação foi desenvolvida como trabalho acadêmico, atendendo aos critérios de avaliação estabelecidos pelo professor, incluindo estruturação adequada do código, separação em camadas, implementação de regras de negócio em serviços, configurações de segurança robustas e cobertura de testes.
+Este projeto é uma **API RESTful** construída com **Spring Boot 3.3**, com foco em segurança via **JWT**, arquitetura em camadas, testes automatizados e documentação interativa com **Swagger/OpenAPI**. Segue os princípios **SOLID** e boas práticas de desenvolvimento.
 
-### Características Principais
+> Projeto acadêmico desenvolvido para avaliação, com foco em:  
+> ✔️ Estrutura de código organizada  
+> ✔️ Camadas bem definidas  
+> ✔️ Segurança robusta  
+> ✔️ Testes automatizados  
 
-A API implementa os seguintes recursos e funcionalidades:
+---
 
-- **Autenticação Stateless com JWT:** Implementação de autenticação segura sem manutenção de estado no servidor, utilizando tokens JWT para validação de requisições.
-- **Criptografia de Senhas:** Utilização de BCryptPasswordEncoder para armazenar senhas de forma segura e irreversível.
-- **Documentação Automática:** Integração com SpringDoc OpenAPI (Swagger UI) para gerar documentação interativa da API automaticamente.
-- **Arquitetura em Camadas:** Separação clara entre camadas de apresentação (controllers), negócio (services), persistência (repositories) e domínio (entities).
-- **Princípios SOLID:** Aplicação consistente dos cinco princípios SOLID para código limpo, modular e extensível.
-- **Testes Automatizados:** Cobertura com testes unitários (Mockito) e testes de integração (MockMvc) para validar funcionalidades.
-- **Tratamento Global de Exceções:** Centralização do tratamento de erros com respostas padronizadas.
-- **Validação de Dados:** Utilização de anotações de validação (Jakarta Validation) para garantir integridade dos dados.
+## 🚀 Funcionalidades
 
-## Tecnologias Utilizadas
+- 🔐 Autenticação Stateless com **JWT**
+- 🔒 Criptografia de senhas com **BCrypt**
+- 📘 Documentação automática com **Swagger (SpringDoc OpenAPI)**
+- 🏛️ Arquitetura em camadas: Controller, Service, Repository, Domain
+- 💡 Princípios **SOLID**
+- ✅ Testes Unitários e de Integração
+- ⚠️ Tratamento global de exceções
+- 🛡️ Validação de dados com Jakarta Validation
 
-A tabela abaixo apresenta as principais tecnologias e versões utilizadas no projeto:
-
-| Tecnologia | Versão | Propósito |
-|---|---|---|
-| Java | 17+ | Linguagem de programação |
-| Spring Boot | 3.3.0 | Framework web e injeção de dependências |
-| Spring Security | 6.x | Autenticação e autorização |
-| Spring Data JPA | 3.3.0 | Persistência de dados e ORM |
-| Hibernate | 6.x | Mapeamento objeto-relacional |
-| JJWT | 0.12.3 | Geração e validação de tokens JWT |
-| SpringDoc OpenAPI | 2.3.0 | Documentação automática Swagger/OpenAPI |
-| H2 Database | Latest | Banco de dados em memória para desenvolvimento |
-| Lombok | Latest | Redução de boilerplate com anotações |
-| JUnit 5 | Latest | Framework de testes |
-| Mockito | Latest | Criação de mocks para testes |
-| Maven | 3.9+ | Gerenciador de dependências e build |
+---
 
 ## Estrutura do Projeto
 
